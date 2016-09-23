@@ -1,0 +1,48 @@
+.gallery{
+  margin: 1em 0;
+}
+
+figure img{
+    width:100%;
+}
+
+.hover figure {
+  background: #1abc9c;
+}
+.hover figure img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+  opacity: .3;
+}
+
+.img-cap{
+  opacity:0;
+  color:#fff;
+  position: absolute;
+  width:100%;
+  height:100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img-cap h4{
+  position: absolute;
+  top:50%;
+  left:20%;
+  line-height: 2em; 
+}
+
+
+.hover figure .img-cap:hover{
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.portfolio{
+  margin-bottom: 10em;
+}

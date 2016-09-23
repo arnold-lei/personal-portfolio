@@ -1,0 +1,24 @@
+
+
+.footer{
+  background-color: #2F4052;
+  color:#fff;
+  padding: 2em 0 10em 0;
+  background-image: url("");
+}
+
+.dark-bg h4{
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+
+.form-panel{
+  margin-bottom: 5em;
+}
+
+.footer-bottom{
+  background: #283645;
+  color: #707E8C;
+  
+}

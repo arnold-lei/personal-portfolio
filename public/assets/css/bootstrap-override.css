@@ -1,0 +1,86 @@
+/*REEN GRAY/Text color: #506A85*/
+/*primary color: #1ABB9C*/
+
+
+
+
+body{
+  color:#506A85;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+ h1, h2, h3, h4 ,h5, h6{
+  font-family: 'Lato', sans-serif;
+ }
+
+h1{
+  text-transform: uppercase;
+}
+p{
+
+  text-align: justify;
+  line-height: 2em;
+}
+
+a, a:hover{
+  text-decoration: none;
+}
+
+.jumbotron{
+  background-image: url("../img/arnold-china-purple.jpg");
+  height:550px;
+  padding:10% 0;
+  color:#fff;
+  margin:0;
+}
+
+.jumbo-contet{
+  margin: 0 auto;
+}
+
+
+
+.section{
+  border-bottom: 1px solid #506A85;
+  text-align: center;
+  height:4em;
+  margin-bottom: 5em;
+}
+
+.section-header{
+  display:inline-block;
+  background-color: #fff;
+  padding:1em;
+}
+
+.quote{
+  width:30%;
+  display: block;
+  padding:0 1em;
+}
+
+.quote h2{
+  line-height: 1.5em;
+}
+
+.pull-quote span{
+  color:#1ABB9C;
+
+}
+
+#profile-pic{
+  width:100%;
+  padding-top: 2em;
+}
+
+a.anchor{
+  display: block;
+  padding-top:5%;
+  display: hidden;
+}
+
+
+.btn-primary:hover{
+  transition: background-color 0.5s ease;
+  background-color: #17A78B;
+  border-color: #148E76
+}

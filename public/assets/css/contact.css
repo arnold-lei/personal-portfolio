@@ -1,0 +1,63 @@
+.contact-me-banner{
+  background-image: url("../img/aquar-banner-gray.jpg");
+  height:350px;
+  color:#fff;
+  padding:5em 0;
+}
+
+.info{
+  margin-top: 1em;
+}
+
+.contact-me-banner h1{
+  font-size: 60px;
+}
+
+.contact-me-banner h2{
+  color: #A3B1BF;
+  font-size: 22px;
+}
+
+.contact-me-banner  ul{
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.contact-me-banner  ul li{
+   color:#A3B1BF;
+   font-size: 16px;
+}
+
+/*Form Styles*/
+
+form{
+  padding-right:1em;
+}
+
+.input{
+  padding:.5em 1em;
+  outline:none;
+  margin-bottom:1em;
+}
+
+label{
+  display:block;
+  margin-bottom: .5em;
+}
+input {
+  width:100%;
+  border:none;
+  border-bottom: 1px solid #4aaaa5;
+}
+input:focus{
+  border:none;
+  border-bottom: 1px solid #1F5D5A;
+}
+
+textarea{
+  width:100%;
+  border-color: #4aaaa5;
+}
+textarea:focus{
+  border: 1px solid #1F5D5A;
+}

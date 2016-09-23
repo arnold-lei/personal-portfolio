@@ -1,0 +1,138 @@
+/*github purple #800080*/
+/*linkedin blue #0077B5*/
+/*Stack overflow orange #F48024*/
+
+
+nav{
+  padding:25px 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  z-index: 3;
+
+}
+.navbar{
+  margin-bottom:0; 
+  display: block;
+  border-radius: 0px;
+  min-height: 3em;
+}
+
+.navbar-toggle, .btn-primary{
+  border:none;
+  border-radius: 0;
+  background-color: #1ABB9C;
+  border-bottom: 3px solid #17A78B;;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  background-color:#fff;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: #17A78B;
+}
+
+.navbar-default{
+  background-color:#fff;
+  border-color: #e7e7e7;
+  color:#506A85;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #506A85;
+}
+
+.navbar-header{
+  font-size: 1.5em;
+}
+
+.navbar-default .navbar-brand{
+  color:#506A85;
+}
+
+header {
+  height:1em;
+}
+
+.header{
+  background-color: #F5F7FA;
+  border:none;
+  color: #506A85;
+/*  border-bottom: 1px solid #E6E9ED;*/
+  border-radius: none;
+}
+
+.header-brand>ul>li{
+  text-align: left;
+}
+
+.icon{
+  color:#506A85;
+}
+
+
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 41px;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  color:#1ABB9C;
+  background-color: inherit;
+}
+
+nav.navbar.shrink {
+  padding: 5px 0;
+-webkit-box-shadow: 0px 0px 20px 2px rgba(153,147,153,1);
+-moz-box-shadow: 0px 0px 20px 2px rgba(153,147,153,1);
+box-shadow: 0px 0px 20px 2px rgba(153,147,153,1);
+}
+
+nav.navbar{
+ -webkit-transition: all 0.4s ease;
+ transition: all 0.4s ease;
+}
+
+#git-hub:hover{
+  transition: background-color 0.5s ease;
+  background-color:#800080;
+  animation-delay: 3s;
+}
+
+#git-hub:hover .icon{
+  transition: background-color 0.5s ease;
+  color:#fff;
+}
+
+#linkedin:hover{
+  transition: background-color 0.5s ease;
+  background-color:#0077B5;
+}
+
+#linkedin:hover .icon{
+  transition: background-color 0.5s ease;
+  color:#fff;
+}
+
+#stackoverflow:hover{
+  transition: background-color 0.5s ease;
+  background-color:#F48024;
+}
+
+#stackoverflow:hover .icon{
+  transition: background-color 0.5s ease;
+  color:#fff;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+  color:#1ABB9C;
+} 
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{
+  
+}
+
+
