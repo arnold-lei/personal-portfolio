@@ -4,7 +4,9 @@ var bodyParser = require('body-parser');
 var exphbs = require('express-handlebars');
 var methodOverride = require('method-override');
 var app = express();
-require('dotenv').config();
+require('dotenv').config({
+    silent: true
+});
 
 
 //App middleware -------------------------------------------/
