@@ -61,13 +61,35 @@ a, a:hover{
 .quote h2{
   line-height: 1.5em;
 }
+.col-md-4{
 
+
+}
 .pull-quote span{
   color:#1ABB9C;
 
 }
+.ui{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+figure{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
 figcaption{
+    padding: 1em;
     text-align: center;
+}
+
+figcaption .title{
+    text-align:left;
+    font-weight: bold;
+    font-size: 20px;
 }
 #profile-pic{
   width:100%;
