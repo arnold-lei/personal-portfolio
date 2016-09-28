@@ -76,7 +76,7 @@ a, a:hover{
 }
 
 figure{
-    border-style: solid;
+    border-style: none;
     border-width: 1px;
     border-radius: 3px;
 }
