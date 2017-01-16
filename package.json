@@ -25,6 +25,7 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.6",
     "react": "^0.14.3",
-    "react-dom": "^0.14.3"
+    "react-dom": "^0.14.3",
+    "sendgrid": "^4.7.1"
   }
 }
