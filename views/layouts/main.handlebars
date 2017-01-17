@@ -138,15 +138,18 @@
     <div class="container">
         <div class- "row">
             <div class="form-panel col-md-8">
-                <form>
+                <form method="POST" role="form" action="contact">
                     <h2>Let me know what you're thinking!</h2>
-                    <label for="email">Name</label>
-                    <input class="input" type="userName" class="form-control" placeholder="e.g. John Smith">
+                    <label for="name">Name</label>
+                    <input name="name"class="input" type="userName" class="form-control" placeholder="e.g. John Smith">
                     <label for="email">Email address</label>
-                    <input class="input" type="email" class="form-control" placeholder="example@gmail.com">
+                    <input name="email"class="input" type="email" class="form-control" placeholder="your email address example@gmail.com">
+                    <label for="subject">Subject</label>
+                    <input name="subject"class="input" class="form-control" placeholder="Hello Arnold">
                     <label for="message">Message</label>
-                    <textarea class="input" class="form-control" rows="10"></textarea>
-                    <p><a class="btn btn-primary btn-lg" href="#" role="button">Submit</a></p>
+                    <textarea class="input" class="form-control" rows="10" name="message"></textarea>
+                    <input class="btn btn-primary btn-lg" type="submit" value="Submit"></input>
+                    <!-- <p><a class="btn btn-primary btn-lg" role="button" value="submit">Submit</a></p> -->
                 </form>
             </div>
             <div class="form-panel col-md-4">
